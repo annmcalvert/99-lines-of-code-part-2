@@ -12,6 +12,7 @@ btn.addEventListener('click', function () {
     //creates divs for each friend with header
     for (let i = 0; i < total; ++i) {
         let div = document.createElement('div');
+        div.setAttribute('class', 'friend');
         let nameHeader = document.createElement('h3');
         let nameHeaderText = document.createTextNode(friends[i]);
         nameHeader.appendChild(nameHeaderText);
