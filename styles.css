@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(225, 234, 235);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: orangered;
+    text-align: center;
+}
+
+.friend {
+    padding: 1em;
+    background-color: rgb(252, 202, 144);
+    border: 2px solid black;
+    border-radius: 1em;
+}
+
+.friend > h3 {
+    text-transform: uppercase;
+}
